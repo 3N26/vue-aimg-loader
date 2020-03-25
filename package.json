@@ -1,0 +1,12 @@
+{
+  "name": "vue-img-loader",
+  "version": "1.0.0",
+  "description": "Automatically set the backgroundImage according to the class attribute of Vue template",
+  "main": "index.js",
+  "author": "cxa <920559872@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "image-size": "^0.8.3",
+    "loader-utils": "^2.0.0"
+  }
+}
