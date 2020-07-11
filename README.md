@@ -106,14 +106,14 @@ class prefix.
 -   type: `String`
 -   default: `px`
 
-image size unit
+image size unit.
 
 ### rate
 
 -   type: `String`
 -   default: `1`
 
-image size rate
+image size rate.
 
 ### scoped
 
@@ -127,7 +127,7 @@ If `true`, image style will be scoped.
 -   type: `Array`
 -   default: `[]`
 
-default types are `['png', 'jpg', 'jpeg']`
+default types are `['png', 'jpg', 'jpeg']`, you can use `extendTypes` to extend it.
 
 ## License
 
