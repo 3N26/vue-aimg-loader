@@ -64,6 +64,8 @@ module.exports = {
 
 ## Example usage
 
+### vue
+
 ```vue
 <template>
     <div id="app">
@@ -72,6 +74,15 @@ module.exports = {
         <div class="img-test_logo" />
     </div>
 </template>
+```
+
+### recommend global css
+
+```css
+[class^='img-'] {
+    object-fit: contain;
+    background-size: contain;
+}
 ```
 
 ## Option
@@ -100,7 +111,7 @@ image size unit
 ### rate
 
 -   type: `String`
--   default: `px`
+-   default: `1`
 
 image size rate
 
