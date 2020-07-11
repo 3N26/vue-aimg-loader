@@ -1,8 +1,8 @@
 {
   "name": "vue-aimg-loader",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Automatically set the image size and relative path by the class attribute of Vue template",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "cxa <920559872@qq.com>",
   "license": "MIT",
   "dependencies": {
@@ -13,7 +13,7 @@
     "conventional-changelog-cli": "^2.0.1"
   },
   "peerDependencies": {
-    "webpack": "^3.0.0 || ^4.1.0 || ^5.0.0-0"
+    "webpack": "^4.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
