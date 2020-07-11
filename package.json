@@ -1,12 +1,34 @@
 {
-  "name": "vue-img-loader",
+  "name": "vue-aimg-loader",
   "version": "1.0.0",
-  "description": "Automatically set the backgroundImage according to the class attribute of Vue template",
+  "description": "Automatically set the image size and relative path by the class attribute of Vue template",
   "main": "index.js",
   "author": "cxa <920559872@qq.com>",
   "license": "MIT",
   "dependencies": {
     "image-size": "^0.8.3",
     "loader-utils": "^2.0.0"
-  }
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.0.1"
+  },
+  "peerDependencies": {
+    "webpack": "^3.0.0 || ^4.1.0 || ^5.0.0-0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenxinan/vue-aimg-loader.git"
+  },
+  "keywords": [
+    "vue",
+    "loader"
+  ],
+  "bugs": {
+    "url": "https://github.com/chenxinan/vue-aimg-loader/issues"
+  },
+  "homepage": "https://github.com/chenxinan/vue-aimg-loader#readme"
 }
