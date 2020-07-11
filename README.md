@@ -2,6 +2,8 @@
 
 ![vue-aimg-loader](https://github.com/chenxinan/vue-aimg-loader/blob/master/doc/banner.jpg)
 
+A easy way to use a image in Vue template without wirte css.
+
 ## Installation
 
 ```bash
