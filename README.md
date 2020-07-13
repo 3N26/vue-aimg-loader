@@ -1,6 +1,6 @@
 # vue-aimg-loader
 
-![vue-aimg-loader](https://github.com/chenxinan/vue-aimg-loader/blob/master/doc/banner.jpg)
+![vue-aimg-loader](https://github.com/chenxinan/vue-aimg-loader/blob/master/docs/banner.jpg)
 
 A easy way to use image in Vue template without write css.
 
