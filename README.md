@@ -71,9 +71,16 @@ module.exports = {
 ```vue
 <template>
     <div id="app">
+        // default usage
         <div class="img-logo" />
+        // img usage
         <img class="img-logo" />
+        // get logo in test folder
         <div class="img-test_logo" />
+        // dynamic class
+        <div :class="random1 > random2 ? 'img-logo1' : 'img-logo2'" />
+        // img dynamic class
+        <img :class="random1 > random2 ? 'img-logo1' : 'img-logo2'" />
     </div>
 </template>
 ```
@@ -81,7 +88,7 @@ module.exports = {
 ### recommend global css
 
 ```css
-[class^='img-'] {
+[class*='img-'] {
     object-fit: contain;
     background-size: contain;
 }
